@@ -70,6 +70,6 @@ After this has been added to the repositories, Resources > Updates > Check for u
 
 The Denoising Suite script calls an executable file that is a machine learning program trained for the denoising functions for the script. The executable can be downloaded via the following link:
 
-https://drive.google.com/file/d/1ez7cz05RAwoPX9-Dn_mpSFqBUhzoVDV-/view?usp=sharing
+https://drive.google.com/file/d/1rXwK82pragUTp7axTCL6sYaObKHMgKcf/view?usp=sharing
 
 Place the zip file in a location on your computer and unzip the contents. Start the DenoiserSuite script in Pixinsight under the Scripts > ChickadeeScripts location. Click on the wrench at the bottom left of the DenoiserSuite dialog box and then move to the location where the executable files have been unzippped. The enables the DenoiserSuite script to find the executable in the correct location.
