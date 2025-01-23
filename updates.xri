@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0">
+   <description>
+      <p>
+		First release of Denoiser Suite Script from chickadeebird.
+      </p>
+      <p>
+      The scripts have been written by Chick Dee (alias chickadeebird).
+      Feedback can be provided on the PixInsight forums.
+      </p>
+   </description>
+   <platform os="all" arch="noarch" version="1.8.9:2.0.0">
+      <package fileName="DenoiserSuitev1.0.0beta.zip" sha1="09656692d15deb353538bac99955364dec96d977" type="script" releaseDate="20250123">
+         <title>
+            Script for DenoiserSuite - Denoiser Suite Script.
+         </title>
+         <description>
+            <p>
+               Script for denoising images offering several different machine learning denoisers. <br/>
+            </p>
+         </description>
+      </package>
+   </platform>
+</xri>
