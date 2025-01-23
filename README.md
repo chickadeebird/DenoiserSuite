@@ -42,6 +42,20 @@ This is the script interface for the DenoiserSuite script.
 
 <img src="./figs/DenoiserSuite script.png" text='SyntheticStars script' align=left />
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This can be found here: ChickadeeScripts > SyntheticStars after installation.
 
 ## Manage repository location
