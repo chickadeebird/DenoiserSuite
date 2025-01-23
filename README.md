@@ -2,6 +2,8 @@
 
 This is a Pixinsight script for denoising both linear and nonlinear images. The denoising system was setup to manage the denoising of both linear and nonlinear images similarly. The denoising is based on the training of 3 different convolutional neural networks. There are currently 3 networks included in this suite.
 
+The algorithms should all work both with and without a GPU, although GPU acceleration greatly enhances the speed of the denoisers.
+
 # Algorithm A
 
 This algorithm is the fastest of all the algorithms in this suite, but potentially at very low and very high levels of noise it sometimes incompletely denoises the image.
@@ -26,17 +28,19 @@ The script is used to denoise linear and nonlinear images as well as mono and mu
 
 ## Images
 
-This is a sample pair of an original image (left), and an image where the stars are replaced with synthetic stars (right).
+This is a nonlinear image of a stack of images on the Iris nebula with an autoSTF applied (top left), the results from algorithm A (top right), algorithm B (bottom left), and algorithm C (bottom right).
 
-<img src="./figs/SyntheticStars replaced.png" text='Synthetic stars script - left original stars, right replaced with synthetic stars' align=left />
+<img src="./figs/DenoiserSuite no mask on Iris.png" text='DenoiserSuite script' align=left />
 
-<img src="./figs/SyntheticStars kept.png" text='Synthetic stars script - left original stars, right synthetic starfield created' align=left />
+This is a linear image from the Leo triplet using algorithm B. It shows the improvement in detail preservation with a stretched lightness mask applied. Top left - original linear stacked image; top right - stretched lightness mask; bottom left - algorithm B with no mask; bottom right - algorithm B with lightness mask applied to preserve high signal details.
+
+<img src="./figs/DenoiserSuite algorithm B mask.png" text='DenoiserSuite algorithm B with and without mask' align=left />
 
 ## Script
 
-This is the script interface for the SyntheticStars script.
+This is the script interface for the DenoiserSuite script.
 
-<img src="./figs/SyntheticStars script.png" text='SyntheticStars script' align=left />
+<img src="./figs/DenoiserSuite script.png" text='SyntheticStars script' align=left />
 
 This can be found here: ChickadeeScripts > SyntheticStars after installation.
 
@@ -44,9 +48,9 @@ This can be found here: ChickadeeScripts > SyntheticStars after installation.
 
 In order to automatically install and subsequently refresh script updates in Pixinsight, add the following URL to Resources > Updates > Manage repositories
 
-https://raw.githubusercontent.com/chickadeebird/SyntheticStars/main/
+https://raw.githubusercontent.com/chickadeebird/DenoiserSuire/main/
 
-After this has been added to the repositories, Resources > Updates > Check for updates should place the new SyntheticStars script in Scripts > ChickadeeScripts
+After this has been added to the repositories, Resources > Updates > Check for updates should place the new DenoiserSuite script in Scripts > ChickadeeScripts
 
 ## Machine learning files location
 
