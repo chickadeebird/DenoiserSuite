@@ -62,7 +62,7 @@ This can be found here: ChickadeeScripts > SyntheticStars after installation.
 
 In order to automatically install and subsequently refresh script updates in Pixinsight, add the following URL to Resources > Updates > Manage repositories
 
-https://raw.githubusercontent.com/chickadeebird/DenoiserSuire/main/
+https://raw.githubusercontent.com/chickadeebird/DenoiserSuite/main/
 
 After this has been added to the repositories, Resources > Updates > Check for updates should place the new DenoiserSuite script in Scripts > ChickadeeScripts
 
