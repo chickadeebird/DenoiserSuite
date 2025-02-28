@@ -10,7 +10,7 @@
       </p>
    </description>
    <platform os="all" arch="noarch" version="1.8.9:2.0.0">
-      <package fileName="DenoiserSuitev1.0.2beta.zip" sha1="5942eb4e2995fe5c12f47288ced5480fd9af77f4" type="script" releaseDate="20250212">
+      <package fileName="DenoiserSuitev1.0.3beta.zip" sha1="bce63ed8f5b9108cc3d7f9527a5c658b61d49cd2" type="script" releaseDate="20250228">
          <title>
             Script for DenoiserSuite - Denoiser Suite Script.
          </title>
