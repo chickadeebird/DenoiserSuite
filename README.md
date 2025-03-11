@@ -44,9 +44,51 @@ This is a linear image from the Leo triplet using algorithm B. It shows the impr
 
 This is the script interface for the DenoiserSuite script.
 
-<img src="./figs/DenoiserSuite script.png" text='SyntheticStars script' align=left />
-
-
+<img src="./figs/DenoiserSuite script.png" text='SyntheticStars script' align=left />  <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 
