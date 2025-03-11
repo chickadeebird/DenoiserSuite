@@ -64,17 +64,6 @@ This is the script interface for the DenoiserSuite script.
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-
-
 
 This can be found here: ChickadeeScripts > SyntheticStars after installation.
 
