@@ -65,7 +65,7 @@ This is the script interface for the DenoiserSuite script.
 <br/>
 <br/>
 
-This can be found here: ChickadeeScripts > SyntheticStars after installation.
+This can be found here: ChickadeeScripts > DenoisingSuite after installation.
 
 ## Manage repository location
 
