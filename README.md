@@ -77,9 +77,9 @@ After this has been added to the repositories, Resources > Updates > Check for u
 
 ## Machine learning files location
 
-The Denoising Suite script calls an executable file that is a machine learning program trained for the denoising functions for the script. The executable for the windows version can be downloaded via the following link:
+The Denoising Suite script calls an executable file that is a machine learning program trained for the denoising functions for the script. The executable for the Windows version can be downloaded via the following link:
 
-https://drive.google.com/file/d/1rXwK82pragUTp7axTCL6sYaObKHMgKcf/view?usp=sharing
+https://drive.google.com/file/d/1TXFU-I7uNb8j4Q6ddg3z9n7UGUOoacRp/view?usp=sharing
 
 The executable for the MacOS version is here (many thanks to pfile on the Pixinsight forums for creating the MacOS version - this is not GPU enhanced and there is a significant startup time):
 
