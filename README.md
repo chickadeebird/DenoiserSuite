@@ -16,6 +16,10 @@ This algorithm is by far the slowest of the algorithms, possibly up to 100 times
 
 This algorithm is a middle ground in terms of both speed of execution and estimate of the signal.
 
+# Algorithm D
+
+This algorithm seems to be the best all around version of the 4 I have made available and the one that I use most frequently.
+
 # Usage
 
 These algorithms should work on mono and multi-channel/RGB images.
@@ -68,8 +72,12 @@ After this has been added to the repositories, Resources > Updates > Check for u
 
 ## Machine learning files location
 
-The Denoising Suite script calls an executable file that is a machine learning program trained for the denoising functions for the script. The executable can be downloaded via the following link:
+The Denoising Suite script calls an executable file that is a machine learning program trained for the denoising functions for the script. The executable for the windows version can be downloaded via the following link:
 
 https://drive.google.com/file/d/1rXwK82pragUTp7axTCL6sYaObKHMgKcf/view?usp=sharing
+
+The executable for the MacOS version is here (many thanks to pfile on the Pixinsight forums for creating the MacOS version - this is not GPU enhanced and there is a significant startup time):
+
+https://drive.google.com/file/d/1nkrbxVmixpQhMsOAdhDO3uifXQyiKrMR/view?usp=sharing
 
 Place the zip file in a location on your computer and unzip the contents. Start the DenoiserSuite script in Pixinsight under the Scripts > ChickadeeScripts location. Click on the wrench at the bottom left of the DenoiserSuite dialog box and then move to the location where the executable files have been unzippped. The enables the DenoiserSuite script to find the executable in the correct location.
